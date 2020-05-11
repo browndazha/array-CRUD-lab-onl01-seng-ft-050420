@@ -36,7 +36,7 @@ end
 
 def retrieve_first_element_from_array(array)
   designers = ["YSL","Dior","LV","Chanel"]
-  designers.first
+  puts designers.first
 end
 
 def retrieve_last_element_from_array(array)
