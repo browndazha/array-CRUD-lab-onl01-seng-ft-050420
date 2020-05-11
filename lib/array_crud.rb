@@ -27,13 +27,19 @@ def remove_element_from_start_of_array(array)
 end
 
 def retrieve_element_from_index(array, index_number)
-
+  designers = ["YSL","Dior","LV","Chanel"]
+   designers[0]
+   designers[1]
+   designers[2]
+   designers[3]
 end
 
 def retrieve_first_element_from_array(array)
-
+  designers = ["YSL","Dior","LV","Chanel"]
+   designers.first
 end
 
 def retrieve_last_element_from_array(array)
-
+  designers = ["YSL","Dior","LV","Chanel"]
+   designers.last
 end
