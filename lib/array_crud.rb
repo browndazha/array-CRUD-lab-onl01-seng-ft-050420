@@ -3,23 +3,23 @@ def create_an_empty_array
 end
 
 def create_an_array
- designers = ["YSL","Dior","LV","Chanel"]
+ array = ["YSL","Dior","LV","Chanel"]
 end
 
 def add_element_to_end_of_array(array, element)
- designers.push("Fendi")
+ array.push("Fendi")
 end
 
 def add_element_to_start_of_array(array, element)
- designers.unshift("Burberry")
+ array.unshift("Burberry")
 end
 
 def remove_element_from_end_of_array(array)
-  designers.pop
+  array.pop
 end
 
 def remove_element_from_start_of_array(array)
-  designers.shift
+  array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
