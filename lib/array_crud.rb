@@ -41,5 +41,5 @@ end
 
 def retrieve_last_element_from_array(array)
   designers = ["YSL","Dior","LV","Chanel"]
-  designers.last
+  puts designers.last
 end
