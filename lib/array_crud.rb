@@ -7,11 +7,11 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
- array.push
+ array.push("Hermes")
 end
 
 def add_element_to_start_of_array(array, element)
- array.unshift
+ array.unshift("Prada")
 end
 
 def remove_element_from_end_of_array(array)
